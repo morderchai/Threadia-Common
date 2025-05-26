@@ -27,7 +27,7 @@ jobs:
         run: dotnet build Threadia-Common/Common.csproj -c Release
 
       - name: Pack
-        run: dotnet pack -c Release -o out
+        run: dotnet pack Threadia-Common/Common.csproj -c Release -o out
 
       - name: Push
         run: dotnet nuget push out/*.nupkg --source "github" --skip-duplicate
