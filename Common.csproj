@@ -4,16 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
     <Authors>Morderchai</Authors>
     <Company>None</Company>
     <PackageId>Threadia.Common</PackageId>
-    <RepositoryUrl>https://github.com/YourUsername/Threadia-Common</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Morderchai/Threadia-Common</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
